@@ -1,0 +1,25 @@
+{
+  "name": "deployment-example",
+  "version": "1.0.0",
+  "description": "A simple fullstack deployment example",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SYU88/deployment-example.git"
+  },
+  "author": "Sarah Yu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SYU88/deployment-example/issues"
+  },
+  "homepage": "https://github.com/SYU88/deployment-example#readme",
+  "dependencies": {
+    "express": "^4.13.4",
+    "mysql": "^2.10.2",
+    "sequelize": "^3.19.2"
+  }
+}
