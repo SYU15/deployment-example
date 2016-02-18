@@ -1,11 +1,21 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.8/semantic.min.css">
     <title>Deployment Example</title>
   </head>
   <body>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-  <div>Hello World</div>
+  <script src="./apiCalls.js"></script>
+  <div class="instructions ui center aligned grid">
+    <div class="ten wide column">
+      <h2>Add an item to the list</h2>
+      <div class="ui action input">
+        <input id="listInput" type="text" placeholder="Add a list item">
+        <button id="addButton" class="ui button">+</button>
+      </div>      
+    </div>
+  </div>
   </body>
 </html>
